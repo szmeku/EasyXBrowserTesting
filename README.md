@@ -9,7 +9,7 @@ Easy to use tool for cross browser testing designed for front-end developers.
 * double click on EasyXBrowserTesting.bat
 
 ### Requirements
-* Java >= 1.7 - http://www.oracle.com/technetwork/java/javase/downloads/jre7u7-downloads-1836441.html
+* Java >= 7 - http://www.oracle.com/technetwork/java/javase/downloads/jre7u7-downloads-1836441.html
 * Windows
 * Internet Explorer and Chrome
 
