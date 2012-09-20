@@ -9,6 +9,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
 import org.openqa.selenium.ie.*;
+import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.chrome.*;
 
 public class EasyXBrowserTesting {
@@ -23,12 +24,16 @@ public class EasyXBrowserTesting {
 		// Setting path to internet explorer driver
 		file = new File("drivers/IEDriverServer.exe");
 		System.setProperty("webdriver.ie.driver", file.getAbsolutePath());
+		// Fixing zoom internet explorer errors
+		DesiredCapabilities ie_caps = DesiredCapabilities.internetExplorer();
+		ie_caps.setCapability("ignoreZoomSetting", true);
+		
 		
 		// Open Chrome
 		this.browsers.add(new Browser("Chrome", new ChromeDriver()));
-		// Open Internet Explorer
+//		 Open Internet Explorer
 		this.browsers.add(new Browser("Internet Explorer 9",
-				new InternetExplorerDriver()));
+				new InternetExplorerDriver(ie_caps)));
 
 		// if you want to use these browsers below you have to install them,
 		// add proper selenium dependencies and uncomment lines below
