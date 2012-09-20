@@ -1,3 +1,4 @@
+import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -15,6 +16,10 @@ public class EasyXBrowserTesting {
 	private List<Browser> browsers = new ArrayList<Browser>();
 
 	public EasyXBrowserTesting() {
+		// Setting path to chrome driver
+		File file = new File("drivers/chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", file.getAbsolutePath());
+		
 		// Open Chrome
 		this.browsers.add(new Browser("Chrome", new ChromeDriver()));
 		// Open Internet Explorer

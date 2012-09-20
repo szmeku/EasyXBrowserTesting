@@ -2,10 +2,25 @@
 
 Easy to use tool for cross browser testing designed for front-end developers.
 
-## Requirements
-* http://code.google.com/p/selenium/downloads/detail?name=selenium-server-standalone-2.25.0.jar&can=2&q=
+## Quick Start
 
-## Goals
+* download https://github.com/downloads/szmeku/EasyXBrowserTesting/EasyXBrowserTestingV.0.0.1.zip
+* unpack
+* double click on EasyXBrowserTesting.bat
+
+### Requirements
+* Java
+* Windows
+* Internet Explorer and Chrome
+
+
+## Contribution
+
+### Dependencies
+* Selenium http://code.google.com/p/selenium/downloads/detail?name=selenium-server-standalone-2.25.0.jar&can=2&q=
+* Chrome Driver is in repository (/drivers) but you can download it from http://code.google.com/p/chromedriver/downloads/detail?name=chromedriver_win_23.0.1240.0.zip&can=2&q=
+
+### Goals
 
 * Automated dom elements' size and location checker
 * Easy to install
