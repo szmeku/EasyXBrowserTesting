@@ -20,6 +20,10 @@ public class EasyXBrowserTesting {
 		File file = new File("drivers/chromedriver.exe");
 		System.setProperty("webdriver.chrome.driver", file.getAbsolutePath());
 		
+		// Setting path to internet explorer driver
+		file = new File("drivers/IEDriverServer.exe");
+		System.setProperty("webdriver.ie.driver", file.getAbsolutePath());
+		
 		// Open Chrome
 		this.browsers.add(new Browser("Chrome", new ChromeDriver()));
 		// Open Internet Explorer
