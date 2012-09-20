@@ -17,6 +17,30 @@ public class SampleUsage2 {
 		boolean exit = false;
 		CMD cmd = CMD.n;
 		
+		
+//		C:\Users\k\Desktop\Nowy folder\EasyXBrowserTesting>java -jar lib/EasyXBrowserTes
+//		tingV0.0.1.jar
+//		Started ChromeDriver
+//		port=16435
+//		version=22.0.1203.0b
+//		log=C:\Users\k\Desktop\Nowy folder\EasyXBrowserTesting\chromedriver.log
+//		2012-09-20 17:03:49 org.apache.http.impl.client.DefaultRequestDirector tryExecut
+//		e
+//		INFO: I/O exception (org.apache.http.NoHttpResponseException) caught when proces
+//		sing request: The target server failed to respond
+//		2012-09-20 17:03:49 org.apache.http.impl.client.DefaultRequestDirector tryExecut
+//		e
+//		INFO: Retrying request
+//		Started InternetExplorerDriver server (32-bit)
+//		2.25.3.0
+//		Listening on port 5171
+//		Exception in thread "main" java.lang.reflect.InvocationTargetException
+//		        at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+//		        at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+//		        at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+//		        at java.lang.reflect.Method.invoke(Unknown Source)
+//		        at org.eclipse.jdt.internal.jarinjarloader.JarRsr
+		
 		do {
 			System.out.println("### MENU ###");
 			System.out.println("u - load url, ch - check all elements, r - refresh website, q - quit");
